@@ -1,5 +1,6 @@
-# Projet-ML-AL
-Projet Machine Learning Images.
+# Projet Machine Learning Images
+
+Participants au projet : Antoine L. (Chef de projet), Yanis B., Jason E., Céline D. 
 
 Objectif du projet : Créer une application Flask capable d'associer une image fournie par l'utilisateur à un des vingts personnages
 situés dans la base des données. Ces personnages sont issues de deux animés japonais : Code Geass et Full Metal Alchemist Brotherhood.
