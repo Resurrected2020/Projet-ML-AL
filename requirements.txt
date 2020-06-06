@@ -1,0 +1,87 @@
+# Liste des imports nécessaires au scraping (fichier main_2.py)
+
+import os
+import time
+import requests # to sent GET requests
+import urllib.parse
+from base64 import b64decode
+import base64
+from selenium import webdriver
+from selenium.webdriver.chrome.options import Options
+from fake_useragent import UserAgent
+import urllib.request
+
+# Liste des imports nécessaires au prepropressing (fichier : process_image.py)
+
+from PIL import Image, ImageOps
+import numpy as np
+import os, shutil
+import imageio
+import matplotlib.pyplot as plt
+from matplotlib import image as mp_image
+import re
+from PIL import Image, ImageOps 
+
+
+# Liste des imports nécessaires à l'entraînement des modèles de Machine Learning (fichier : model_processing.py)
+
+import pandas as pd
+import os
+import seaborn as sns
+import numpy as np
+import matplotlib.pyplot as plt
+import pickle
+from PIL import Image
+from sklearn.compose import ColumnTransformer
+from sklearn.pipeline import Pipeline
+from sklearn.preprocessing import OrdinalEncoder
+from sklearn.impute import SimpleImputer
+from sklearn.preprocessing import StandardScaler, OneHotEncoder, LabelEncoder
+from sklearn.model_selection import train_test_split, GridSearchCV, cross_val_predict
+from sklearn.decomposition import PCA
+from sklearn.linear_model import LinearRegression, RidgeCV, LassoCV, LogisticRegression, ElasticNet, ElasticNetCV, SGDClassifier
+from sklearn.ensemble import RandomForestRegressor, GradientBoostingRegressor
+from sklearn.svm import SVR, SVC
+from sklearn.tree import DecisionTreeRegressor, DecisionTreeClassifier
+import re
+import time
+import skimage
+from sklearn import decomposition
+
+
+
+# Liste des imports nécessaires pour l'entraînement des modèles de Machine Learning (fichier : model_propressing.py)
+
+import pandas as pd
+import streamlit as st
+import os
+import seaborn as sns
+import numpy as np
+import matplotlib.pyplot as plt
+import pickle
+from PIL import Image
+from sklearn.preprocessing import StandardScaler
+from sklearn.decomposition import PCA
+from sklearn.svm import SVR, SVC
+import re
+import time
+import skimage
+from sklearn import decomposition
+
+# Liste des imports nécessaires pour le développement de l'application Flask (fichier : app.py)
+
+import pandas as pd
+import streamlit as st
+import os
+import seaborn as sns
+import numpy as np
+import matplotlib.pyplot as plt
+import pickle
+from PIL import Image
+from sklearn.preprocessing import StandardScaler
+from sklearn.decomposition import PCA
+from sklearn.svm import SVR, SVC
+import re
+import time
+import skimage
+from sklearn import decomposition
