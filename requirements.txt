@@ -11,7 +11,7 @@ from selenium.webdriver.chrome.options import Options
 from fake_useragent import UserAgent
 import urllib.request
 
-# Liste des imports nécessaires au prepropressing (fichier : process_image.py)
+# Liste des imports nécessaires au prepropressing (fichier : preprocessing_image.py)
 
 from PIL import Image, ImageOps
 import numpy as np
@@ -23,7 +23,7 @@ import re
 from PIL import Image, ImageOps 
 
 
-# Liste des imports nécessaires à l'entraînement des modèles de Machine Learning (fichier : model_processing.py)
+# Liste des imports nécessaires à l'entraînement des modèles de Machine Learning (fichier : model_selection.py)
 
 import pandas as pd
 import os
