@@ -2,7 +2,7 @@
 
 Participants au projet : Antoine L. (Chef de projet), Yanis B., Jason E., Céline D. 
 
-Objectif du projet : Créer une application Flask capable d'associer une image fournie par l'utilisateur à un des vingts personnages
+Objectif du projet : Créer une application Streamlit capable d'associer une image fournie par l'utilisateur à un des vingts personnages
 situés dans la base des données. Ces personnages sont issues de deux animés japonais : Code Geass et Full Metal Alchemist Brotherhood.
 Les personnages retenus pour l'application sont les suivants (dix pour chaque animé) : 
 - CODE GEASS : Lelouch Lamperouge, Kukurugi Suzaku, C.C, Kôzuki Karen, Nunnally Lamperouge, Euphemia Li Britannia,
@@ -19,5 +19,5 @@ Machine Learning.
 - Entraînement des modèles de Machine Learning et optimisation des paramètres de façon à sélectionner le modèle le plus pertinent
 pour le traitement d'images. 
 
-- Développement de l'application Flask
+- Développement de l'application Streamlit
 
