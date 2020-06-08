@@ -1,4 +1,4 @@
-# Liste des imports nécessaires au scraping (fichier main_2.py)
+# Liste des imports nécessaires au scraping (fichier main_scraping.py)
 
 import os
 import time
