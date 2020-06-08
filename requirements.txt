@@ -68,7 +68,7 @@ import time
 import skimage
 from sklearn import decomposition
 
-# Liste des imports nécessaires pour le développement de l'application Flask (fichier : app.py)
+# Liste des imports nécessaires pour le développement de l'application Streamlit (fichier : Streamlit.py)
 
 import pandas as pd
 import streamlit as st
