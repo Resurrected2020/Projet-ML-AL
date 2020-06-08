@@ -48,26 +48,6 @@ import time
 import skimage
 from sklearn import decomposition
 
-
-
-# Liste des imports nécessaires pour l'entraînement des modèles de Machine Learning (fichier : model_propressing.py)
-
-import pandas as pd
-import streamlit as st
-import os
-import seaborn as sns
-import numpy as np
-import matplotlib.pyplot as plt
-import pickle
-from PIL import Image
-from sklearn.preprocessing import StandardScaler
-from sklearn.decomposition import PCA
-from sklearn.svm import SVR, SVC
-import re
-import time
-import skimage
-from sklearn import decomposition
-
 # Liste des imports nécessaires pour le développement de l'application Streamlit (fichier : Streamlit.py)
 
 import pandas as pd
